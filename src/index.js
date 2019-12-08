@@ -21,7 +21,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
-require("dotenv").config();
+// require("dotenv").config();
 
 const PORT = process.env.PORT || 3000;
 const publicDirectoryPath = path.join(__dirname, "../public");
